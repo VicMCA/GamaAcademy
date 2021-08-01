@@ -21,5 +21,8 @@ Muda o nome da branch para o nome entre aspas
 Apelida a pasta atual como "origin" e a conecta com a pasta selecionada no GitHub
 
 >> git push -u origin main
-Envia os arquivos de 'origin' para 'main'
+Envia os arquivos de 'origin' para 'main' da primeira vez. Depois dela, use como abaixo
+>> git push origin main
+
+
 
