@@ -1,28 +1,28 @@
-# Placeholder para o projeto. Realoquei as istruções de "git how to" para cá.
+# Placeholder para o projeto. Realoquei as istruções dgit how to" para cá.
 
-Instruções para o git
+Instruções paragit
 
->> git init
-Inicializa o git na pasta atualmente selecionada
+|>>  git init
+Inicializagit na pasta atualmente selecionada
 
->> git add "arquivo.extensão" (executar sem aspas)
+|>>  git add "arquivo.extensão" (executar sem aspas)
 Adiciona o arquivo para a monitoração de mudanças
 
->> git status
-Verifica o status atual do git, mudanças que ocorreram, commits, etc
+|>>  git status
+Verifica o status atual git, mudanças que ocorreram, commits, etc
 
->> git commit -m "mensagem"
+|>>  git commit -m "mensagem"
 Realiza o commit dos arquivos, com uma mensagem descrevendo o commit
 
->> git branch -M "main"
+|>>  git branch -M "main"
 Muda o nome da branch para o nome entre aspas
 
->> git remote add origin https://github.com/usuário/pasta.git
+|>>  git remote add origin https://github.com/usuário/pasgit
 Apelida a pasta atual como "origin" e a conecta com a pasta selecionada no GitHub
 
->> git push -u origin main
+|>>  git push -u origin main
 Envia os arquivos de 'origin' para 'main' da primeira vez. Depois dela, use como abaixo
->> git push origin main
+|>>  git push origin main
 
 
 
