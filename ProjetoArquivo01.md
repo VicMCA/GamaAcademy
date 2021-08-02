@@ -34,5 +34,8 @@ Instruções para git
 |>> `git checkout -b "nome-da-nova-branch"`  
 *   Cria e entra em uma nova branch do projeto  
 
-|>> `git checkout main`
-*   Volta para a branch "main"
+|>> `git checkout main`  
+*   Volta para a branch "main"  
+
+|>> `git merge nova-feature`  
+*   Traz o conteúdo da branch "nova-feature" para a branch "main"  
