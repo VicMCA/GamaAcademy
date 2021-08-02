@@ -28,8 +28,11 @@ Instruções para git
 *   Envia os arquivos de 'origin' para 'main' da primeira vez. Depois dela, use como abaixo  
 |>>  `git push origin main`  
 
+|>> `git push origin nova-branch`  
+*   Envia os arquivos para a branch selecionada, neste caso é a 'nova-branch'  
+
 |>> `git checkout -b "nome-da-nova-branch"`  
 *   Cria e entra em uma nova branch do projeto  
 
-|>> `git push origin nova-branch`  
-*   Envia os arquivos para a branch selecionada, neste caso é a 'nova-branch'  
+|>> `git checkout main`
+*   Volta para a branch "main"
