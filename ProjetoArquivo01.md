@@ -24,6 +24,16 @@ Instruções para git
 |>>  `git remote add origin https://github.com/usuário/pasta.git`  
 *   Apelida a pasta atual como "origin" e a conecta com a pasta selecionada no GitHub  
 
+|>> `git remote set-url origin https://github.com/usuário/pasta.git` 
+*   Muda o endereço de "origin", útil para caso o projeto já tenha um origin anteriormente  
+*   e você queira redirecionar (caso você tenha clonado de alguém, por exemplo)  
+
+|>> `git remote -v`  
+*   Confere os endereços online conectados à pasta atual do projeto no computador  
+
+|>> `git remote remove apelido-da-pasta`  
+*   Remove o apelido selecionado para a conexão com o repositório no github. Pode ser origin ou outro
+
 |>>  `git push -u origin main`  
 *   Envia os arquivos de 'origin' para 'main' da primeira vez. Depois dela, use como abaixo  
 |>>  `git push origin main`  
@@ -39,3 +49,9 @@ Instruções para git
 
 |>> `git merge nova-feature`  
 *   Traz o conteúdo da branch "nova-feature" para a branch "main"  
+
+|>> `git clone https://github.com/perfil-do-usuario/repositorio-a-ser-puxado.git`  
+*   Clona o repositório do endereço e o coloca na pasta onde você estiver (ex: usuario/docs/ a pasta conada fica aqui)  
+
+|>> `git pull`  
+*   Baixa do github as atualizações para a pasta no computador  
