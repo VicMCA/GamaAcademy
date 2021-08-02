@@ -30,3 +30,6 @@ Instruções para git
 
 |>> `git checkout -b "nome-da-nova-branch"`  
 *   Cria e entra em uma nova branch do projeto*  
+
+|>> `git push origin nova-branch`  
+*   Envia os arquivos para a branch selecionada, neste caso é a 'nova-branch'*  
